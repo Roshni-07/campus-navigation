@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Navigation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Campus Navigation System</h1>
+
+  <div class="container">
+
+    <label>Current Location:</label>
+    <select id="currentLocation">
+      <option value="">-- Select --</option>
+      <option value="MainGate">Main Gate</option>
+      <option value="BlockA">Block A Entrance</option>
+      <option value="BlockB">Block B Entrance</option>
+      <option value="Library">Library Entrance</option>
+      <option value="Canteen">Canteen</option>
+    </select>
+
+    <label>Destination:</label>
+    <select id="destination">
+      <option value="">-- Select --</option>
+      <option value="Library">Library</option>
+      <option value="CSELab">CSE Lab</option>
+      <option value="ECELab">ECE Lab</option>
+      <option value="PrincipalOffice">Principal's Office</option>
+      <option value="CanteenCounter">Canteen Cash Counter</option>
+    </select>
+
+    <button id="startNav">Start Navigation</button>
+
+    <div id="imageBox">
+      <img id="navImage" src="" alt="Step will appear here" />
+      <button id="nextBtn" style="display:none;">Next Step</button>
+    </div>
+
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
 
