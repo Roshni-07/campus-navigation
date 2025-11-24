@@ -3,6 +3,15 @@ import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10
 
 // ---------------------------------------------------------
 // STEP 1: Insert your Firebase config here ↓↓↓
+const firebaseConfig = {
+  apiKey: "AIzaSyA0a5jqJJ4ggv8aqd4ASmzXY4wNUNxXkP8",
+  authDomain: "campusnavigator-4c30d.firebaseapp.com",
+  projectId: "campusnavigator-4c30d",
+  storageBucket: "campusnavigator-4c30d.firebasestorage.app",
+  messagingSenderId: "962002298376",
+  appId: "1:962002298376:web:b3616a05030140469093bd",
+  measurementId: "G-FPLVXQ5EFS"
+};
 // ---------------------------------------------------------
 
 const firebaseConfig = {
